@@ -27,4 +27,4 @@ I move data from places that don't want to give it up to people who need to trus
 
 ### After hours
 
-I can't stop building small products for problems I actually have. [**spotidraft**](https://github.com/brow1998/spotidraft) turns YouTube uploads into Spotify for Creators drafts, because doing it by hand twice was once too many. [**empreita**](https://github.com/brow1998/empreita) is a construction management PWA for architects and the clients who keep asking "how much is left?".
+I can't stop building small products for problems I actually have. [**spotidraft**](https://github.com/brow1998/spotidraft) turns YouTube uploads into Spotify for Creators drafts, because doing it by hand twice was once too many.
