@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Bruno Andrade Santos, Senior Data Engineer. A pipeline from API to raw, staging, marts and reports.">
+  <style>
+    .bg{fill:#ffffff}
+    .grid{stroke:#f3f4f6;stroke-width:1}
+    .name{font:700 52px ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#1f2328;letter-spacing:-1px}
+    .role{font:500 22px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#bc4c00}
+    .tag{font:400 18px ui-sans-serif,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;fill:#59636e}
+    .edge{stroke:#d1d9e0;stroke-width:2;fill:none}
+    .node{fill:#f6f8fa;stroke:#d1d9e0;stroke-width:1.5}
+    .node-hot{fill:#f6f8fa;stroke:#bc4c00;stroke-width:1.5}
+    .label{font:500 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#1f2328;text-anchor:middle}
+    .ok{font:500 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#1a7f37}
+    .pkt{fill:#bc4c00}
+    .p1{animation:flow 4s linear infinite}
+    .p2{animation:flow 4s linear infinite;animation-delay:-1.33s}
+    .p3{animation:flow 4s linear infinite;animation-delay:-2.66s}
+    @keyframes flow{from{offset-distance:0%;opacity:0}8%{opacity:1}92%{opacity:1}to{offset-distance:100%;opacity:0}}
+    .pkt{offset-path:path("M180 236 H1020")}
+    @media (prefers-reduced-motion:reduce){.p1,.p2,.p3{animation:none;opacity:0}}
+  </style>
+  <rect class="bg" width="1200" height="320" rx="16"/>
+  <g class="grid">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M200 0V320M400 0V320M600 0V320M800 0V320M1000 0V320"/>
+  </g>
+
+  <text class="role" x="60" y="80">$ senior_data_engineer</text>
+  <text class="name" x="60" y="140">Bruno Andrade Santos</text>
+  <text class="tag" x="60" y="176">Pipelines that are boring in the best way. São Paulo, BR.</text>
+
+
+  <g>
+    <path class="edge" d="M180 236H300 M420 236H540 M660 236H780 M900 236H1020"/>
+  <circle class="pkt p1" r="5" cx="0" cy="0"/>
+  <circle class="pkt p2" r="5" cx="0" cy="0"/>
+  <circle class="pkt p3" r="5" cx="0" cy="0"/>
+    <rect class="node" x="60" y="216" width="120" height="40" rx="8"/><text class="label" x="120" y="241">api</text>
+    <rect class="node" x="300" y="216" width="120" height="40" rx="8"/><text class="label" x="360" y="241">raw</text>
+    <rect class="node" x="540" y="216" width="120" height="40" rx="8"/><text class="label" x="600" y="241">staging</text>
+    <rect class="node" x="780" y="216" width="120" height="40" rx="8"/><text class="label" x="840" y="241">marts</text>
+    <rect class="node-hot" x="1020" y="216" width="120" height="40" rx="8"/><text class="label" x="1080" y="241">reports</text>
+  </g>
+  <text class="ok" x="60" y="292">✓ idempotent   ✓ traceable   ✓ tested   ✓ one command</text>
+</svg>
