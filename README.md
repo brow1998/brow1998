@@ -35,9 +35,8 @@ Three products I built and run on my own infrastructure, with 4,067 people signe
 | [**imdb-airflow-pipeline**](https://github.com/brow1998/imdb-airflow-pipeline) | Airflow 3 + DuckDB + dbt over the daily IMDb files: ETag-aware downloads into a content-addressed store, daily rating snapshots, idempotent backfills, dbt layers that stop on a failing test |
 | [**worldbank-indicators-pipeline**](https://github.com/brow1998/worldbank-indicators-pipeline) | Config-driven ingestion from the World Bank API, content-addressed raw layer, dbt dimensional model on DuckDB, data-quality tests, Dagster assets with lineage |
 | [**data-of-fire-challenge**](https://github.com/brow1998/data-of-fire-challenge) | Incremental loads of 733k San Francisco fire incidents into Postgres, a dbt star schema, and a receipt on every fact row |
-| [**jobsity**](https://github.com/brow1998/jobsity) | CSV → Kafka → ClickHouse with content-hashed ids: re-sent files never double, offsets commit only after the insert |
 | [**grafana-poc**](https://github.com/brow1998/grafana-poc) | Streaming telemetry for an LLM-as-a-Service platform: Redpanda → ClickHouse, Prometheus and Loki, five Grafana dashboards for five different audiences |
-| [**hippo-challenge**](https://github.com/brow1998/hippo-challenge) | Pharmacy claim and revert streams deduplicated and validated into per-drug metrics, with every rejected row traced to its file and line |
+| [**jobsity**](https://github.com/brow1998/jobsity) | CSV → Kafka → ClickHouse with content-hashed ids: re-sent files never double, offsets commit only after the insert |
 | [**data_engineer_etl_test**](https://github.com/brow1998/data_engineer_etl_test) | Retail product master data in DuckDB: GTIN and CNPJ check digits validated in SQL, retried lookups resolved, nothing dropped silently |
 
 ### After hours
