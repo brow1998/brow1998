@@ -5,6 +5,8 @@
 
 I move data from places that don't want to give it up to people who need to trust it. The goal is always the same: a pipeline nobody has to think about at 3 a.m.
 
+**Portfolio:** [brow1998.github.io](https://brow1998.github.io) · [LinkedIn](https://www.linkedin.com/in/brow1998)
+
 ### House rules
 
 - **Run it twice, get the same answer.** Re-runs never create duplicates.
@@ -13,6 +15,18 @@ I move data from places that don't want to give it up to people who need to trus
 - **Tests don't need the internet.** Record real responses once, replay them forever.
 
 <sub>Python · SQL · dbt · Dagster · Airflow · DuckDB · Postgres · ClickHouse · Kafka · Grafana · Docker</sub>
+
+### Shipped and running
+
+Three products I built and run on my own infrastructure, with 4,067 people signed up between them.
+
+| Product | What it is | In production |
+|---|---|---|
+| [**Watchfolio**](https://usewatchfolio.com) | A diary for series, films and anime. Postgres with 17.4M episode watches and an 856k-title catalog synced from TMDB and TVDB; an MCP server so Claude can work with a user's library | 3,930 people, 1,691 active in the last 30 days |
+| [**Shelfie**](https://useshelfie.com) | A household's collection on the phone. Barcode scans query 17 catalog providers merged into one 45k-product catalog | 123 people, 8,381 items |
+| [**Pedro**](https://brow1998.github.io/?for=fde#pedro) | Internal tool that runs a video agency's production pipeline around one number: days of slack per channel. MCP server with 21 tools and its own OAuth consent | 706 videos, 14 channels |
+
+<sub>Counts read from each production database on 2026-11-20. The code is private; ask me for a walkthrough.</sub>
 
 ### Selected work
 
